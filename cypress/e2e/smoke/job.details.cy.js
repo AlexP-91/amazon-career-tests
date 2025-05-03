@@ -7,7 +7,7 @@ import uiTexts from "../../fixtures/uiTexts.json"
 describe('Job listing opens correctly', () => {
     beforeEach(() => {
         cy.visit('/');
-        homePage.serchInpt.type(testData.searchingRole);
+        homePage.searchInpt.type(testData.searchingRole);
         homePage.searchBtn.click();
         jobsListPage.jobTitles.first().click();
       });

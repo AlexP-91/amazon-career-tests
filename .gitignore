@@ -5,3 +5,5 @@ cypress/videos
 cypress/screenshots
 jsconfig.json
 types.d.ts
+credentials.jsconfig
+gmail_token.json

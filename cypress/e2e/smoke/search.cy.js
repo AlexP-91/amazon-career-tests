@@ -8,7 +8,7 @@ describe('Search by keyword and location', () => {
     });
 
     it('Should earch by keyword', () => {
-        homePage.serchInpt.type(testData.searchingRole);
+        homePage.searchInpt.type(testData.searchingRole);
         homePage.searchBtn.click();
 
         cy.url().should('include', '/search');
