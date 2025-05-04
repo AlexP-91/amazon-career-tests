@@ -1,6 +1,3 @@
-// import { registerCommand } from 'cypress-wait-for-stable-dom';
-// registerCommand();
-
 class ApplyFormPage {
     get title() { return cy.get('.display-2')}
     get smsSkipBtn() { return Cypress.$('#save-and-continue-form-button')}
