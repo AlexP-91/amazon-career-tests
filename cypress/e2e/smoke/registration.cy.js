@@ -2,7 +2,7 @@ import { faker } from '@faker-js/faker';
 import homePage from "../../page_objects/home.page";
 import registrationPage from "../../page_objects/registration.page";
 import uiTexts from "../../fixtures/uiTexts.json";
-import user from "../../fixtures/userCredential.json";
+import user from "../../fixtures/userCredentials.json";
 import otpConfirmationPage from '../../page_objects/otp.confirmation.page';
 
 describe('Registration Flow', () => {

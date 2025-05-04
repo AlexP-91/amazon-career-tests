@@ -2,7 +2,7 @@ import homePage from "../../page_objects/home.page";
 import loginPage from "../../page_objects/login.page";
 import registrationPage from "../../page_objects/registration.page";
 import uiTexts from "../../fixtures/uiTexts.json";
-import user from "../../fixtures/userCredential.json";
+import user from "../../fixtures/userCredentials.json";
 import otpConfirmationPage from "../../page_objects/otp.confirmation.page";
 
 describe('Login Flow', () => {

@@ -6,7 +6,7 @@ import otpConfirmationPage from "../../page_objects/otp.confirmation.page";
 import applyFormPage from "../../page_objects/apply.form.page";
 import uiTexts from "../../fixtures/uiTexts.json"
 import testData from "../../fixtures/testData.json"
-import user from "../../fixtures/userCredential.json";
+import user from "../../fixtures/userCredentials.json";
 
 
 describe('Apply Now Flow', () => {
