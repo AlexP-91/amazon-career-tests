@@ -18,7 +18,7 @@ describe('Apply Now Flow', () => {
         homePage.logoNavigationBtn.click();
         homePage.searchInpt.type(testData.roles[Math.floor(Math.random() * testData.roles.length)]);
         homePage.searchBtn.click();
-        jobsListPage.jobTitles.eq(Math.floor(Math.random() * 10)).click();
+        jobsListPage.jobTitles.then(titles => cy.wrap(titles[Math.floor(Math.random() * titles.length)]).click());
         jobDetailsPage.applyBtn.click();
 
         applyFormPage.title.should('have.text', uiTexts.applyFormTitle);
